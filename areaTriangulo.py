@@ -9,7 +9,7 @@ class Formulario(QtWidgets.QMainWindow):  #Crea el formulario
         super(Formulario, self).__init__(parent)
         uic.loadUi("frmAreaTriangulo.ui", self)
 
-        self.show() #Muestra el formulario
+        self.show() #Esta sección nos muestra el formulario
     
         self.btnCalcular.clicked.connect(self.calcular) #Se conectan los botones
         self.btnLimpiar.clicked.connect(self.limpiar)
